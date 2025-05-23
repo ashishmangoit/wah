@@ -165,44 +165,44 @@ const ProductInfo: React.FC<ProductInfoProps> = ({ product }) => {
             </div>
 
             {/* Checkpoints sections */}
-            <div className="border rounded-md">
+            <div className="border rounded-md box-shadow-sm">
                 <div>
                     <h3 className="text-base font-semibold text-gray-900 border-b border-gray-200 p-3 py-4">
                         Please select atleast one Base Item
                     </h3>
                     {/* <div className="mt-2 space-y-2"> */}
-                        <label className="flex items-center justify-between border-b border-gray-200 p-3 py-4 rounded-md p-3 cursor-pointer hover:bg-gray-50">
-                            <div className="flex items-center">
-                                <input
-                                    type="radio"
-                                    name="base-item"
-                                    className="form-radio text-orange-400 focus:ring-orange-500"
-                                />
-                                <span className="ml-3 text-sm text-gray-700">
-                                    Get flat 50% off on new and latest
-                                    collection
-                                </span>
-                            </div>
-                            <span className="text-sm font-medium text-orange-400">
-                                $100
+                    <label className="flex items-center justify-between border-b border-gray-200 p-3 py-4 rounded-md p-3 cursor-pointer hover:bg-gray-50">
+                        <div className="flex items-center">
+                            <input
+                                type="radio"
+                                name="base-item"
+                                className="form-radio text-orange-400 focus:ring-orange-500"
+                            />
+                            <span className="ml-3 text-sm text-gray-700">
+                                Get flat 50% off on new and latest
+                                collection
                             </span>
-                        </label>
-                        <label className="flex items-center justify-between border-b border-gray-200 p-3 py-4 rounded-md p-3 cursor-pointer hover:bg-gray-50">
-                            <div className="flex items-center">
-                                <input
-                                    type="radio"
-                                    name="base-item"
-                                    className="form-radio text-orange-500 focus:ring-orange-500"
-                                />
-                                <span className="ml-3 text-sm text-gray-700">
-                                    Get flat 30% off on new and latest
-                                    collection
-                                </span>
-                            </div>
-                            <span className="text-sm font-medium text-orange-400">
-                                $70
+                        </div>
+                        <span className="text-sm font-medium text-orange-400">
+                            $100
+                        </span>
+                    </label>
+                    <label className="flex items-center justify-between border-b border-gray-200 p-3 py-4 rounded-md p-3 cursor-pointer hover:bg-gray-50">
+                        <div className="flex items-center">
+                            <input
+                                type="radio"
+                                name="base-item"
+                                className="form-radio text-orange-500 focus:ring-orange-500"
+                            />
+                            <span className="ml-3 text-sm text-gray-700">
+                                Get flat 30% off on new and latest
+                                collection
                             </span>
-                        </label>
+                        </div>
+                        <span className="text-sm font-medium text-orange-400">
+                            $70
+                        </span>
+                    </label>
                     {/* </div> */}
                 </div>
                 <div>
@@ -210,34 +210,34 @@ const ProductInfo: React.FC<ProductInfoProps> = ({ product }) => {
                         Our Add on services
                     </h3>
                     {/* <div className="mt-2 space-y-2"> */}
-                        <label className="flex items-center justify-between border-b border-gray-200 p-3 py-4 rounded-md p-3 cursor-pointer hover:bg-gray-50 ">
-                            <div className="flex items-center">
-                                <input
-                                    type="checkbox"
-                                    className="form-checkbox text-orange-500 rounded focus:ring-orange-500"
-                                />
-                                <span className="ml-3 text-sm text-gray-700">
-                                    Dress Stitching at affordable price
-                                </span>
-                            </div>
-                            <span className="text-sm font-medium text-orange-400">
-                                $300
+                    <label className="flex items-center justify-between border-b border-gray-200 p-3 py-4 rounded-md p-3 cursor-pointer hover:bg-gray-50 ">
+                        <div className="flex items-center">
+                            <input
+                                type="checkbox"
+                                className="form-checkbox text-orange-500 rounded focus:ring-orange-500"
+                            />
+                            <span className="ml-3 text-sm text-gray-700">
+                                Dress Stitching at affordable price
                             </span>
-                        </label>
-                        <label className="flex items-center justify-between border-b border-gray-200 p-3 py-4 rounded-md p-3 cursor-pointer hover:bg-gray-50 ">
-                            <div className="flex items-center">
-                                <input
-                                    type="checkbox"
-                                    className="form-checkbox text-orange-500 rounded focus:ring-orange-500"
-                                />
-                                <span className="ml-3 text-sm text-gray-700">
-                                    Get your shirt stitched to perfection
-                                </span>
-                            </div>
-                            <span className="text-sm font-medium text-orange-400">
-                                $150
+                        </div>
+                        <span className="text-sm font-medium text-orange-400">
+                            $300
+                        </span>
+                    </label>
+                    <label className="flex items-center justify-between border-b border-gray-200 p-3 py-4 rounded-md p-3 cursor-pointer hover:bg-gray-50 ">
+                        <div className="flex items-center">
+                            <input
+                                type="checkbox"
+                                className="form-checkbox text-orange-500 rounded focus:ring-orange-500"
+                            />
+                            <span className="ml-3 text-sm text-gray-700">
+                                Get your shirt stitched to perfection
                             </span>
-                        </label>
+                        </div>
+                        <span className="text-sm font-medium text-orange-400">
+                            $150
+                        </span>
+                    </label>
                     {/* </div> */}
                 </div>
             </div>

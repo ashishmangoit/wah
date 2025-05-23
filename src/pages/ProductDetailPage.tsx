@@ -2,11 +2,11 @@ import React from 'react';
 import ProductGallery from '../components/product/ProductGallery';
 import ProductInfo from '../components/product/ProductInfo';
 import SimilarProducts from '../components/product/SimilarProducts';
-import product1  from '../assets/images/product1.png';
-import product2  from '../assets/images/product2.png';
-import product3  from '../assets/images/product3.png';
-import product4  from '../assets/images/product4.png';
-import product5  from '../assets/images/product5.png';
+import product1 from '../assets/images/product1.png';
+import product2 from '../assets/images/product2.png';
+import product3 from '../assets/images/product3.png';
+import product4 from '../assets/images/product4.png';
+import product5 from '../assets/images/product5.png';
 import similarProduct1 from '../assets/images/similarproduct1.png';
 import similarProduct2 from '../assets/images/similarproduct2.png';
 import similarProduct3 from '../assets/images/similarproduct3.png';
@@ -48,7 +48,7 @@ const productInfo = {
   name: '40% OFF on Havic HV G-92 Gamepad',
   originalPrice: 160,
   discountedPrice: 120,
-  discount: 40, 
+  discount: 40,
   rating: 4.8,
   reviews: 150,
   image: productImages[0].src,
@@ -111,17 +111,17 @@ const similarProducts = [
 
 const ProductDetailPage: React.FC = () => {
   return (
-    <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8 py-8">
+    <div className="bg-white max-w-7xl mx-auto px-4 sm:px-6 lg:px-8 py-8">
       <div className="grid grid-cols-1 lg:grid-cols-2 gap-10 mb-10">
         {/* Left: Product Gallery */}
         <ProductGallery images={productImages} />
-        
+
         {/* Right: Product Info */}
         <ProductInfo product={productInfo} />
       </div>
-      
-     
-      
+
+
+
       {/* Similar Products */}
       <div className="mb-10">
         <SimilarProducts products={similarProducts} />
