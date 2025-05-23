@@ -165,7 +165,7 @@ const ProductInfo: React.FC<ProductInfoProps> = ({ product }) => {
             </div>
 
             {/* Checkpoints sections */}
-            <div className="border rounded-md box-shadow-sm">
+            <div className="border rounded-md shadow-[0_3px_10px_rgb(0,0,0,0.2)]">
                 <div>
                     <h3 className="text-base font-semibold text-gray-900 border-b border-gray-200 p-3 py-4">
                         Please select atleast one Base Item
